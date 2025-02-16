@@ -1,15 +1,15 @@
 SRB:
 Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u terminalu:
 
-cd C:\Users\PC\Desktop\laravel_proba-master
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-php artisan storage:link
-php artisan serve
-I naravno, potrebno je da imate instaliran XAMPP da bi se pokrenule migracije. Ako XAMPP nije instaliran, uradite to kao prvo, a zatim sve ove korake redom.
+1. cd C:\Users\PC\Desktop\laravel_proba-master
+2. composer install
+3. cp .env.example .env
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan db:seed
+7. php artisan storage:link
+8. php artisan serve
+9. I naravno, potrebno je da imate instaliran XAMPP da bi se pokrenule migracije. Ako XAMPP nije instaliran, uradite to kao prvo, a zatim sve ove korake redom.
 
 ####################################################################################
 
