@@ -1,7 +1,7 @@
 SRB:
 Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u terminalu:
 
-1. cd C:\Users\PC\Desktop\laravel_proba-master
+1. cd C:\Users\PC\Desktop\laravel_bazzar-master
 2. composer install
 3. cp .env.example .env
 4. php artisan key:generate
@@ -16,7 +16,7 @@ Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u termina
 ENG:
 To run this application, you need to execute the following commands in the terminal:
 
-1. cd C:\Users\PC\Desktop\laravel_proba-master
+1. cd C:\Users\PC\Desktop\laravel_bazzar-master
 2. composer install
 3. cp .env.example .env
 4. php artisan key:generate
