@@ -1,0 +1,25 @@
+{
+    "exchangeRates": [
+      { "currency": "EUR", "buyRate": 117.5, "sellRate": 118.3 },
+      { "currency": "USD", "buyRate": 106.2, "sellRate": 107.1 },
+      { "currency": "GBP", "buyRate": 139.5, "sellRate": 140.0 },
+      { "currency": "CHF", "buyRate": 116.8, "sellRate": 117.6 },
+      { "currency": "AUD", "buyRate": 67.3, "sellRate": 68.0 },
+      { "currency": "CAD", "buyRate": 79.4, "sellRate": 80.1 },
+      { "currency": "JPY", "buyRate": 0.72, "sellRate": 0.73 },
+      { "currency": "NOK", "buyRate": 11.5, "sellRate": 11.7 },
+      { "currency": "SEK", "buyRate": 11.0, "sellRate": 11.2 },
+      { "currency": "HRK", "buyRate": 15.6, "sellRate": 15.8 },
+      { "currency": "RUB", "buyRate": 1.2, "sellRate": 1.3 },
+      { "currency": "DKK", "buyRate": 8.5, "sellRate": 8.7 },
+      { "currency": "TRY", "buyRate": 5.9, "sellRate": 6.0 },
+      { "currency": "INR", "buyRate": 1.3, "sellRate": 1.4 },
+      { "currency": "CNY", "buyRate": 15.0, "sellRate": 15.2 },
+      { "currency": "MXN", "buyRate": 21.0, "sellRate": 21.2 },
+      { "currency": "BRL", "buyRate": 23.5, "sellRate": 24.0 },
+      { "currency": "ZAR", "buyRate": 18.5, "sellRate": 18.8 },
+      { "currency": "PKR", "buyRate": 2.5, "sellRate": 2.6 },
+      { "currency": "RSD", "buyRate": 1.0, "sellRate": 1.0 }
+    ]
+  }
+  

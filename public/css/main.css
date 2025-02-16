@@ -1,0 +1,78 @@
+#home-section .owl-dots {
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+#home-section .owl-dot {
+    width: 12px !important;
+    height: 12px !important;
+    margin: 5px !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    opacity: 0.7 !important;
+}
+#home-section .owl-dot.active {
+    background: #82ae46 !important; 
+    opacity: 1 !important;
+}
+
+
+.fa-xl {
+    color: black;
+    font-size: 2rem !important;
+}
+
+
+#price-filter-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .am-slider {
+    margin: 20px 0;
+    background: #f4f4f4;
+    border-radius: 5px;
+    height: 8px;
+    position: relative;
+  }
+  
+  .ui-slider-handle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffcb05;
+    border: 2px solid #e0e0e0;
+  }
+  
+  .ui-slider-range {
+    background-color: #ffcb05;
+    border-radius: 5px;
+  }
+  
+  .amshopby-slider-display {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+.btncol {
+  color: #ffc107;
+}
+
+.btnedit {
+  color: #fff !important;
+}
+
+.btnhover:hover {
+  color: #ffc107 !important;
+}
+
+.contactcolor {
+  color: #ffffff !important;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta > a span:hover {
+  color: #ffc107 !important;
+}

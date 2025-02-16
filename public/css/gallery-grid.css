@@ -1,0 +1,167 @@
+body {
+    /* background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%); */
+    /* min-height: 100vh; */
+    font: normal 16px sans-serif;
+    /* padding: 60px 0; */
+}
+
+.container.gallery-container {
+    background-color: #ffc107;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.60);
+}
+
+.gallery-container h1 {
+    color: #82ae46;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #000000;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%; /* Puna širina kolone */
+    height: 200px; /* Postavi fiksnu visinu */
+    object-fit: cover; /* Omogućava proporcionalno smanjenje i centriranje */
+    object-position: center; /* Centriraj sliku */
+    border: 5px solid #82ae46;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+    #baguetteBox-overlay .full-image img{
+        max-height: 50% !important;
+    }
+}
+
+@media(min-width: 768px) {
+    #baguetteBox-overlay .full-image img{
+        max-height: 60% !important;
+    }
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 160px; 
+    }
+}
+@media(min-width: 400px) {
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 160px; 
+    }
+}
+
+@media(min-width: 992px) {
+    #baguetteBox-overlay .full-image img{
+        max-height: 80% !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    #baguetteBox-overlay .full-image img{
+        max-height: 100% !important;
+    }
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 200px; 
+    }
+}
+
+@media (min-width: 460px) and (max-width: 575px) {
+    .tz-gallery .lightbox img {
+        width: 85%;
+        height: 210px; 
+    }
+}
+
+.filter-box, .products-per-page {
+    /* background-color: #fff; */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.filter-box h5, .products-per-page h5 {
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 !important;
+}
+
+.form-select {
+    width: 100%;
+    /* padding: 3px; */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-success, .btn-primary {
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Responsive stilovi */
+@media (max-width: 768px) {
+    .filter-box, .products-per-page {
+        margin-bottom: 20px;
+    }
+}
+
+.wg {
+    width: 150px;
+    height: 35px;
+    font-weight: 700;
+    color: #82ae46;
+    text-align: center;
+}
+
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .wg {
+        width: 130px;
+        font-size: 12px;
+    }
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 160px; 
+    }
+
+}
+
+
