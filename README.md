@@ -12,12 +12,12 @@ Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u termina
     DB_DATABASE=bazzar
     DB_USERNAME=root
     DB_PASSWORD=
-7. php artisan migrate
-8. php artisan db:seed
-9. php artisan storage:link
-10. php artisan serve
-11. I naravno, potrebno je da imate instaliran XAMPP da bi se pokrenule migracije. Ako XAMPP nije instaliran, uradite to kao prvo, a zatim sve ove korake redom.
-12. Da bi kontakt forma radila ispravno, potrebno je da u .env fajlu prilagodite sledeće vrednosti:
+8. php artisan migrate
+9. php artisan db:seed
+10. php artisan storage:link
+11. php artisan serve
+12. I naravno, potrebno je da imate instaliran XAMPP da bi se pokrenule migracije. Ako XAMPP nije instaliran, uradite to kao prvo, a zatim sve ove korake redom.
+13. Da bi kontakt forma radila ispravno, potrebno je da u .env fajlu prilagodite sledeće vrednosti:
     MAIL_MAILER=smtp  
     MAIL_HOST=smtp.gmail.com  
     MAIL_PORT=587                        # Gmail koristi port 587 za TLS  
