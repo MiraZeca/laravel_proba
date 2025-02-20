@@ -1,5 +1,5 @@
 SRB:
-Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u terminalu:
+Za pokretanje ove aplikacije potrebno da upalite XAMPP, pokrenete start na Apache i MySQL, i da izvršite sledeće komande u terminalu:
 
 1. cd C:\Users\PC\Desktop\laravel_bazzar-master
 2. composer install
@@ -12,12 +12,11 @@ Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u termina
     DB_DATABASE=bazzar
     DB_USERNAME=root
     DB_PASSWORD=
-8. php artisan migrate
-9. php artisan db:seed
-10. php artisan storage:link
-11. php artisan serve
-12. I naravno, potrebno je da imate instaliran XAMPP da bi se pokrenule migracije. Ako XAMPP nije instaliran, uradite to kao prvo, a zatim sve ove korake redom.
-13. Da bi kontakt forma radila ispravno, potrebno je da u .env fajlu prilagodite sledeće vrednosti:
+7. php artisan migrate
+8. php artisan db:seed
+9. php artisan storage:link
+10. php artisan serve
+11. Da bi kontakt forma radila ispravno, potrebno je da u .env fajlu prilagodite sledeće vrednosti:
     MAIL_MAILER=smtp  
     MAIL_HOST=smtp.gmail.com  
     MAIL_PORT=587                        # Gmail koristi port 587 za TLS  
@@ -30,7 +29,7 @@ Za pokretanje ove aplikacije potrebno je da izvršite sledeće komande u termina
 ####################################################################################
 
 ENG:
-To run this application, you need to execute the following commands in the terminal:
+To run this application, you need to enable XAMPP, start Apache and MySQL, and execute the following commands in the terminal:
 
 1. cd C:\Users\PC\Desktop\laravel_bazzar-master
 2. composer install
@@ -47,8 +46,7 @@ To run this application, you need to execute the following commands in the termi
 8. php artisan db:seed
 9. php artisan storage:link
 10. php artisan serve
-11. And of course, you need to have XAMPP installed to run the migrations. If XAMPP is not installed, do that first, then follow these steps in order.
-12. In order for the contact form to work correctly, you need to adjust the following values ​​in the .env file:
+11. In order for the contact form to work correctly, you need to adjust the following values ​​in the .env file:
     MAIL_MAILER=smtp  
     MAIL_HOST=smtp.gmail.com  
     MAIL_PORT=587                        # Gmail uses port 587 for TLS  
